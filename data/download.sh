@@ -1,0 +1,14 @@
+wget https://archive.org/download/blanca_202108/usage_train.json
+wget https://archive.org/download/blanca_202108/usage_test.json
+wget https://archive.org/download/blanca_202108/class_posts_train_data_v3.json	
+wget https://archive.org/download/blanca_202108/class_posts_test_data_v3.json	
+wget https://archive.org/download/blanca_202108/stackoverflow_data_linkedposts__train.json
+wget https://archive.org/download/blanca_202108/stackoverflow_data_linkedposts__testing.json
+wget https://archive.org/download/blanca_202108/hierarchy_train.json
+wget https://archive.org/download/blanca_202108/hierarchy_test.json
+wget https://archive.org/download/blanca_202108/stackoverflow_data_ranking_v3_training.json
+wget https://archive.org/download/blanca_202108/stackoverflow_data_ranking_v3_test.json
+wget https://archive.org/download/blanca_202108/class_posts_test_data.json
+wget https://archive.org/download/blanca_202108/merge-15-22.2.format.json
+wget https://archive.org/download/blanca_202108/classes.map
+wget https://archive.org/download/blanca_202108/classes.fail
