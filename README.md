@@ -99,7 +99,7 @@ To do the same using a checkpoint from a pretrained model; e.g. BertOverflow, ch
 * If you use Graph4Code in your research, please cite our work:
 
  ```
-@inproceedings{crouse2021deep,
+@inproceedings{abdelaziz2022blanca,
       title={Can Machines Read Coding Manuals Yet? -- A Benchmark for Building Better Language Models for Code Understanding}, 
       author={Ibrahim Abdelaziz and Julian Dolby and Jamie McCusker and Kavitha Srinivas},
       booktitle={Proceedings of the AAAI Conference on Artificial Intelligence (AAAI 2022)},
