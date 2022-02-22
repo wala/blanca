@@ -231,7 +231,7 @@ def create_posts_ranking(fl, data_dir, model, validate=None, is_test=False):
     random.shuffle(train_posts_ranking)
 
     print("data size " + str(len(train_posts_ranking)))
-    
+
     if is_test:
         return train_posts_ranking
 
@@ -374,7 +374,7 @@ if __name__ == '__main__':
 
     # task 3 - determine if a post is related to a class's docstring
     if class_posts_str in args.tasks:
-        train_dataloader_class_posts, train_loss_class_posts, e, w = create_train_class_posts('class_posts_train_data_new', args.data_dir, model, validate=args.validate)
+        train_dataloader_class_posts, train_loss_class_posts, e, w = create_train_class_posts('class_posts_train_data_v3.json', args.data_dir, model, validate=args.validate)
         train_objectives.append((train_dataloader_class_posts, train_loss_class_posts))
 
         if args.validate == class_posts_str:
